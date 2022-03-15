@@ -403,7 +403,7 @@ Spot Price Coefficient | \\(\texttt{SpotPriceFeeCoefficient}\\) |0.1%|
   struct MinCollateralParameters {
     uint minStaticQuoteCollateral;
     uint minStaticBaseCollateral;
-    uint shockVol; // 3.00 -> 300% volatility
+    uint shockVol;
     uint callSpotPriceShock;
     uint putSpotPriceShock;
   }
