@@ -3,7 +3,7 @@ leap: 39
 title: LEAP Generalized Rebate Whitelist
 status: Draft
 author: Taminater (@taminater), Muir (@paulvaden), Domrom (@0xdomrom) 
-created: 2022-11-23x
+created: 2022-11-23
 ---
 
 ## Simple Summary
