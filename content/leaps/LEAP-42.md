@@ -1,4 +1,3 @@
-
 ---
 leap: 42
 title: Migrate LYRA staking to mainnet
