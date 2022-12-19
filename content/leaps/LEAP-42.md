@@ -29,7 +29,7 @@ Staking rewards are currently calculated via an off-chain script and seeded in a
 
 ### On-Chain Governance
 
-As Lyra DAO migrates its governance processes on-chain, mainnet is a natural home for a multi-chain protocol that requires cross-chain messaging. Ability to send messages in [10-15 minutes]([https://community.optimism.io/docs/developers/bridge/messaging/#for-ethereum-l1-to-optimism-l2-transactions](https://community.optimism.io/docs/developers/bridge/messaging/#for-ethereum-l1-to-optimism-l2-transactions)) from mainnet to an L2 is essential for time-sensitive actions like parameter updates and reward distributions. For optimistic rollups like Optimism and Arbitrum, a 7 day challenge period to send messages between L2s is unacceptable for these processes.
+As Lyra DAO migrates its governance processes on-chain, mainnet is a natural home for a multi-chain protocol that requires cross-chain messaging. Ability to send messages in [10-15 minutes](https://community.optimism.io/docs/developers/bridge/messaging/#for-ethereum-l1-to-optimism-l2-transactions) from mainnet to an L2 is essential for time-sensitive actions like parameter updates and reward distributions. For optimistic rollups like Optimism and Arbitrum, a 7 day challenge period to send messages between L2s is unacceptable for these processes.
 
 Governance involving token holders therefore requires LYRA and stkLYRA token liquidity on mainnet.
 
