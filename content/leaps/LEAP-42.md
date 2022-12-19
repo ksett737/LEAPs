@@ -1,6 +1,6 @@
 
 ---
-leap: 43
+leap: 42
 title: Migrate LYRA staking to mainnet
 status: Draft
 author: dappbeast
