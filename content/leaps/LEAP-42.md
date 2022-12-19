@@ -10,14 +10,14 @@ created: 2022-12-19
 This LEAP proposes migrating LYRA staking from Optimism to Ethereum mainnet in anticipation of the Lyra Protocol's multi-chain deployment. It also includes modifications to reward programs to support mainnet staking.
 
 ## Abstract
-With the Arbitrum deployment following [LEAP 38](https://leaps.lyra.finance/leaps/leap-38/), the Lyra DAO needs to manage a multi-chain protocol on Optimism and Arbitrum. This LEAP suggests Ethereum mainnet as a secure and unbias home for staking. This requires:
+With the Arbitrum deployment following [LEAP 38](https://leaps.lyra.finance/leaps/leap-38/), the Lyra DAO needs to manage a multi-chain protocol on Optimism and Arbitrum. This LEAP suggests Ethereum mainnet as a secure and unbiased home for staking. This requires:
 
 - Migration of LYRA staking contract from Optimism to Ethereum mainnet.
 - Modification of the vault, fee rebate and short collateral programs on L2s to distribute rewards as native LYRA instead of stkLYRA which won't be bridgeable.
 
 ## Motivation
 
-For a multi-chain protocol, mainnet is a secure and unbias home for LYRA staking. The move to mainnet unlocks important benefits:
+For a multi-chain protocol, mainnet is a secure and unbiased home for LYRA staking. The move to mainnet unlocks important benefits:
 
 - A fully on-chain staking program (with no off-chain components).
 - Unlocking on-chain governance to manage deployments across multiple L2s (in future proposals).
