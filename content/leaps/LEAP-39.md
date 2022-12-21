@@ -1,7 +1,7 @@
 ---
 leap: 39
 title: LEAP dHEDGE Whitelist
-status: Draft
+status: Proposed
 author: Taminater (@Taminater#0002)
 created: 2022-11-23
 ---
