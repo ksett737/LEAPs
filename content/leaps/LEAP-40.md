@@ -17,7 +17,7 @@ Add pool 2 liquidity mining programs to Velodrome on Optimism.
 ## Abstract
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the LEAP is implemented, not *why* it should be done or *how* it will be done. If the LEAP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-This LEAP proposes adding 125,000 of OP annualized in liquidity incentives to Velodrome as a pilot to measure the relative effectiveness of incentives.
+This LEAP proposes moving 125,000 of OP annualized in liquidity incentives from Arrakis to Velodrome as a pilot to measure the relative effectiveness of incentives.
 
 ## Motivation
 <!--This is the problem statement. This is the *why* of the LEAP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the LEAP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the LEAP will address the issue!-->
@@ -37,7 +37,7 @@ The purpose of this proposal is to improve the efficiency of LYRA Pool2 liquidit
 The Lyra DAO should provide 125,000 OP incentives (as bribes) annually to support the LYRA/USDC pair on Velodrome
 The Lyra DAO should continue to use their veNFT voting position to vote to direct VELO emissions to LYRA/USDC
 The Lyra DAO will use all fees/bribes earned by their veNFT voting position to bribe the LYRA/USDC, further boosting the capital efficiency of the incentives / growing TVL
-Rewards in the Arrakis/Uniswap pool should remain the same and not be impacted by this LEAP
+Rewards in the Arrakis/Uniswap pool will be reduced by 125,000 OP annually
 After 6 weeks, this pilot should be evaluated comparing the TVL/Incentive and Volume/Incentive of the Arrakis and Velodrome strategies.
 
 What is Velodrome?
