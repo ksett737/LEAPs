@@ -10,7 +10,7 @@ created: 2022-12-30
 
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
-This proposal allows KwentaDAO to host a front end for Lyra’s options as part of the Kwenta exchange for a period of 6 months. 400,000 LYRA will be provided to the Kwenta DAO to incentivize hosting and align the DAOs.
+This proposal allows KwentaDAO to host a front end for Lyra’s options as part of the Kwenta exchange for a period of 6 months. We are requesting 400,000 LYRA to the Kwenta DAO in order to incentivize hosting and align the DAOs.
 
 Prior to the end of the 6 month pilot, the terms of the partnership between Kwenta and Lyra should be evaluated and continued or amended in a subsequent LEAP.
 
