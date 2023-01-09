@@ -51,20 +51,22 @@ Mainnet staking gives stakers the security of Ethereum mainnet and makes the Lyr
 ### Overview
 <!--This is a high level overview of *how* the LEAP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
-Migration of staking will happen at the start of a new epoch referred to as the "migration epoch" to ensure a smooth transition. At the start of the epoch:
+Migration will require users to swap current "OP stkLYRA" to new "mainnet stkLYRA" on Optimism. Mainnet stkLYRA will be deployed on mainnet but bridgeable from Optimism, allowing users to bridge from Optimism and stake on mainnet.
 
-1. Rewards are distributed for the previous epoch (in current stkLYRA).
-2. All locked staking rewards from previous epochs are distributed.
-3. Deployment of the new staking contract on mainnet.
-4. Initialization of stkLYRA bridges between mainnet and Optimism / Arbitrum.
-5. Deployment of the migration contract swap current stkLYRA to new, bridgeable stkLYRA.
+Migration will happen at the start of a new epoch referred to as the "migration epoch" to ensure a smooth transition. The steps taken are:
+
+1. New staking and migration contracts deployed.
+2. Initialization of stkLYRA bridges between mainnet and Optimism / Arbitrum.
+3. Rewards distributed for previous epoch (in OP stkLYRA).
+4. Locked staking rewards distributed for all previous epochs (in OP stkLYRA).
+5. Reward distribution starts for mainnet staking.
 
 Changes to staking UX are as follows:
 
 - Staking rewards are only earned for mainnet stkLYRA balances. Traders and LPs continue to earn and claim stkLYRA rewards on L2s, but must bridge stkLYRA to mainnet to earn staking rewards. Staking rewards are calculated on-chain using balances of stkLYRA, and with the staking contract on mainnet, it can only read mainnet balances. Bridging stkLYRA from L2s to mainnet will take 7 days on Optimistic rollups due to the [challenge period](https://help.optimism.io/hc/en-us/articles/4411895558171-Why-do-I-need-to-wait-a-week-when-moving-assets-out-of-Optimism-).
 - Staking rewards on mainnet will only be rewarded in stkLYRA, and there is no 6 month lock on claiming stkLYRA rewards. These are functional limitations of the staking contract.
 - stkLYRA can only be unstaked on mainnet. Because the staking contract will live on mainnet and not Optimism, users must bridge any stkLYRA earned on L2s to unstake and claim their LYRA. During the migration, users can abstain from migrating their stkLYRA and unstake on an L2 directly (but they will no longer accrue rewards for that LYRA).
-- Stakers must migrate their stkLYRA to continue to earn trading and LP rewards on Optimism as well as staking rewards on mainnet. This requires an `approve()` and `migrate()` transaction.
+- Stakers must swap their OP stkLYRA to mainnet stkLYRA to earn staking and trading / LP rewards on mainnet and L2s. Migration requires an `approve()` and `migrate()` transaction. Trading / LP rewards will only be earned for mainnet stkLYRA balances in the migration epoch. 
 - All of these changes will be enforced immediately at the start of the migration epoch.
 
 Beyond this, staking features defined in [LEAP 26](https://leaps.lyra.finance/leaps/leap-26) including the 14 day cooldown period on staking rewards remain unchanged.
@@ -83,7 +85,7 @@ There are a few key decisions to justify:
 
 A new fork of Aave's staking contract will be deployed. Documentation on the staking contract can be found [here](https://docs.aave.com/developers/v/2.0/protocol-governance/staking-aave).
 
-Additionally, a simple migration contract to convert current stkLYRA for new stkLYRA 1:1 will be deployed.
+Additionally, a simple migration contract to swap OP stkLYRA for mainnet stkLYRA 1:1 will be deployed.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
