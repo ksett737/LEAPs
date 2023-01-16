@@ -10,21 +10,27 @@ created: 2022-12-30
 
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
-This proposal allows KwentaDAO to host a front end for Lyra’s options as part of the Kwenta exchange for a period of 6 months. We are requesting 400,000 LYRA to the Kwenta DAO in order to incentivize hosting and align the DAOs.
+This LEAP sets out the terms of a proposal by Kwenta DAO, requesting a pilot period allowing Kwenta DAO to host a front end for the Lyra protocol as part of the Kwenta exchange (kwenta.eth.limo) (Kwenta Interface) for a period of 6 months (Pilot). This Pilot requires Lyra DAO to provide: 
+- A grant of up to 400,000 LYRA to Kwenta DAO to undertake the Pilot, to be paid linearly in monthly instalments (subject to Lyra DAO review throughout the Pilot); and
+- Priority support from Lyra DAO Core Contributors, including weekly meetings, open ended sync communications channels and technical support for disruptions between the Kwenta Interface and the Lyra protocol.
+Prior to the end of the Pilot, Kwenta DAO will provide a subsequent LEAP proposing the terms of any ongoing arrangement between Kwenta DAO and Lyra DAO.
 
-Prior to the end of the 6 month pilot, the terms of the partnership between Kwenta and Lyra should be evaluated and continued or amended in a subsequent LEAP.
 
 ## Abstract
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the LEAP is implemented, not *why* it should be done or *how* it will be done. If the LEAP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
-As the first interface deployer, Kwenta will receive priority support to host a Lyra interface. The Lyra team will continue to assist in updates for the duration of the 6 month period. The user interface will be rebranded as `Kwenta` instead of `Lyra` with an additional label `powered by Lyra`. The interface will retain all existing functionality under this rebranding.
+This proposal introduces Kwenta DAO as the first third party interface deployer of the Lyra protocol. This will involve Kwenta hosting its own interface (the Kwenta Interface) that provides users with access to trade Lyra protocol sourced options for the Pilot period. Kwenta DAO and Lyra DAO Core Contributors will work together to support the Kwenta Interface connecting to Lyra protocol, with a view to determining longer term commercial arrangements subject to a successful Pilot.
 
 ## Motivation
 <!--This is the problem statement. This is the *why* of the LEAP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the LEAP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the LEAP will address the issue!-->
-As Lyra’s protocol grows more complex and the number of integrations expands, the Lyra team should be able to focus on back end development and support for integrators to maximize use cases for Lyra options.
+The Lyra protocol provides users with infrastructure to build and trade options. The Lyra DAO is focussed on back end development and support for clients building and hosting interfaces to access the Lyra protocol. 
 
-Since options exchanges in traditional finance are typically part of a suite of spot and derivatives trading tools, moving Lyra’s options trading experience out of isolation would expand the reach and appeal of Lyra’s product. Kwenta is a project focused on providing a UI and tooling for a variety of spot and derivatives offerings on Optimism, and is an ideal context in which to place Lyra’s offerings.
+In traditional finance, options trading is typically offered as a component of a suite of spot and derivatives trading tools and access to a broader range of financial instruments. However, the Lyra interface (as currently implemented) only provides a single venue for creating and trading options. 
+There is an opportunity to expand the reach and use of the Lyra protocol by offering access to clients who can build tailored interfaces facilitating access to the Lyra protocol and offer trading activities together with other financial products and services not built on the Lyra protocol. 
 
-For the duration of the agreement, Kwenta DAO's responsibilities will include, and be limited to, the operation of the interface as outlined in this proposal. Kwenta DAO will not charge any additional fees for users accessing the Lyra interface unless specified as part of a future integration or partnership agreement.
+Kwenta is a project focused on providing a user interface and tool suite to customers for a range of spot and derivatives offerings on Optimism. Kwenta is proposed as the first (pilot) user proposing to build and host an options trading interface. 
+
+Providing third parties with access to the Lyra protocol and liquidity to support their product offerings will allow Lyra to maintain its core focus of growing a strong backend system rather than compete against providers that offer a range of financial services and instruments.
+
 
 ## Specification
 <!--The specification should describe the syntax and semantics of any new feature, there are five sections
@@ -34,22 +40,31 @@ For the duration of the agreement, Kwenta DAO's responsibilities will include, a
 4. Test Cases
 5. Configurable Values
 -->
+During the Pilot:
+a) Lyra DAO’s role
+Lyra DAO will provide Kwenta DAO with:
+- Access to the Lyra interface to develop and host its own interface (the Kwenta Interface); 
+- Access to the Lyra protocol to support the Kwenta Interface; 
+- A grant of up to 400,000 LYRA to undertake the Pilot, to be paid linearly in monthly instalments (subject to Lyra DAO review throughout the Pilot); 
+support from Lyra DAO Core Contributors, including weekly meetings, open ended sync communications channels and technical support for disruptions between Kwenta Interface and the Lyra protocol.
 
-### Overview
-<!--This is a high level overview of *how* the LEAP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
-A collaboration between Lyra DAO and Kwenta DAO to execute the pilot hosting will help Lyra establish a viable long term approach to the hosting of an options trading front end. By providing an incentive in the form of Lyra tokens and a period of priority support, Lyra can ensure a smooth transition to independent 3rd party hosting.
+b) Kwenta DAO’s role
+Kwenta DAO will:
+- Develop and host the Kwenta Interface to be made available to Kwenta users on the Kwenta exchange (kwenta.eth.limo); 
+- Deploy the Kwenta Interface to provide users with access to Lyra sourced options only; 
+- Not charge any additional fees to users accessing the Lyra protocol through the Kwenta Interface;
+- Not in any way indicate that it can bind Lyra DAO; 
+- Only deal with the LYRA tokens provided in connection with the Pilot through staking, and will not ‘dump sell’ any LYRA tokens; 
+prior to the end of the Pilot period, develop a subsequent LEAP proposing the terms of any ongoing commercial arrangement between Kwenta DAO and Lyra DAO with respect to the Kwenta Interface.
 
-### Technical Specification
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Lyra currently exposes or the creations of new ones.-->
-- The Lyra user interface will be rebranded as `Kwenta` instead of `Lyra`. 
-- The label `powered by Lyra` will be presented on the UI to clarify the distinction.
-- The Lyra team will provide update support for 6 months.
+c) Other matters
+This LEAP does not propose to limit any actions that can be taken by Lyra DAO in respect of the Lyra interface or the Lyra protocol. 
 
-### Configurable Values
-<!--Please list all values configurable under this implementation.-->
-```
-Length of the hosting period = 6 months
-Incentive for the hosting = 400,000 LYRA
-```
+This arrangement is not intended to be exclusive and Lyra DAO may provide services to other parties providing interfaces with Lyra protocol. This LEAP is only to support a project proposed by Kwenta DAO to develop and operate a Lyra protocol integrated interface.
+
+If engagement during the Pilot indicates that a longer term commercial arrangement with Kwenta DAO is not in the best interests of Lyra DAO, a disengagement plan will be agreed and implemented. 
+
+Execution of this LEAP is subject to the Kwenta DAO approving a KIP on substantially similar terms to this LEAP. 
+
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
