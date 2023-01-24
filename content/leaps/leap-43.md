@@ -41,6 +41,7 @@ Providing third parties with access to the Lyra protocol and liquidity to suppor
 5. Configurable Values
 -->
 During the Pilot:
+
 a) Lyra DAO’s role
 Lyra DAO will provide Kwenta DAO with:
 - Access to the Lyra interface to develop and host its own interface (the Kwenta Interface); 
