@@ -16,8 +16,8 @@ Additionally, with majority of LYRA moving from Optimism to Ethereum mainnet, th
 ## Specification
 
 ### Overview
-- A LYRA-ETH Uni v3 pool will be incentivised with an annual rate of 5m LYRA.
-- A liquidity range of (0.2x, 5x) spot will be used as a starting point.
+- A LYRA-ETH Uni v3 pool with 1% fee will be incentivised with an annual rate of 5m LYRA.
+- A liquidity range of (0.2x, 5x) spot will be used as a starting point and can be updated by Council with 1 week notice.
 - The Arrakis Protocol, which offers easy management of Uni v3 liquidity, will be used similar to the previous program proposed in [LEAP 21](https://leaps.lyra.finance/leaps/leap-21).
 - To ensure smooth migration of token liquidity, when LYRA-ETH incentives on Ethereum mainnet start, LPs will be given 2 weeks to migrate before incentives on Optimism are disabled.
 
