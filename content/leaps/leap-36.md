@@ -1,7 +1,7 @@
 ---
 leap: 36
 title: Cash Collateralized AMM
-status: Approved
+status: Implemented
 author: domrom (@0xdomrom), Lyndon (@LondonCalamari)
 created: 2022-10-24
 ---
