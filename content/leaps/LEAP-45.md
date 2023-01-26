@@ -1,16 +1,12 @@
 ---
-LEAP: <46>
-title: <Coinstore to Fork and Self-Host Lyra>
+leap: 45
+title: Coinstore to Fork and Self-Host Lyra
 status: Draft
-author: < <beankirk> (@beankirk) >
-
-created: <2023-01-21>
-requires (*optional): <LEAP number(s)>
+author: beankirk (@beankirk)
+created: 2023-01-21
 ---
 
 <!--You can leave these HTML comments in your merged LEAP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new LEAPs. Note that a LEAP number will be assigned by an editor. When opening a pull request to submit your LEAP, please use an abbreviated title in the filename, `leap-draft_title_abbrev.md`. The title should be 44 characters or less.-->
-
-This is the suggested template for new LEAP. Note that a LEAP number will be assigned by an editor. When opening a pull request to submit your LEAP, please use an abbreviated title in the filename, `leap-draft_title_abbrev.md`. The title should be 44 characters or less.
 
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
