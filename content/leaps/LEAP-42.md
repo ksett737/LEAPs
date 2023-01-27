@@ -1,7 +1,7 @@
 ---
 leap: 42
 title: Migrate LYRA staking to mainnet
-status: Approved
+status: Implemented
 author: dappbeast
 created: 2022-12-19
 ---
