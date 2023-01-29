@@ -33,7 +33,9 @@ As for the UI/UX hosting with Coinstore, I believe the value and target audience
 
 ### Overview
 <!--This is a high level overview of *how* the LEAP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
-This partnerhhip would mean Lyra will be exposed to a new stream of users and Coinstore to the DeFi community. I believe the success of this LEAP will start the first of many LEAPs we will be working even closer with the implementation of Lyra's UI/UX. With Lyra's UI/UX being live, we will be launching our DeFi academy as well in support of Lyra. This is where users unfamiliar with DeFi are able to understand, this way we can facilitate and welcome new users of DeFi, beginning with Lyra.
+This partnerhhip would mean Lyra will be exposed to a new stream of users and Coinstore to the DeFi community. I believe the success of this LEAP will start the first of many LEAPs we will be working even closer with the implementation of Lyra's UI/UX. With Lyra's UI/UX being live, we will be launching our DeFi academy as well in support of Lyra. This is where users unfamiliar with DeFi are able to understand, this way we can facilitate and welcome new users of DeFi, beginning with Lyra. 
+
+Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA region. Peak daily VOL @ ~630M (2022),  minimum daily VOL 20M (2022),  Current daily VOL ~144M. Ranked #21 on CG, #77 on CMC. (Accurate at time of writing)
 
 ### Rationale
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
@@ -45,16 +47,26 @@ This partnerhhip would mean Lyra will be exposed to a new stream of users and Co
 3) Lyra's team to provide support for the duration of the partnership.
 4) UI hosted as Lyra Finance.
 5) Rewards Model to be revaluated in May 2023.
-  
+6) Address : 0x1390e61Ac63c56e80649bD1405AdC6E3D4a069ad
+7) Part of the inital $LYRA incentives will be liquidated, remainder to be staked.
+8) Preview for Lyra feature : 
+
+![Homepage](assets/leap-45/Homepage.png)
+
+![Feature](assets/leap-45/LyraFeature.png)
+
+![Webpage](assets/leap-45/Website.png)
+
 ### Test Cases
 <!--Test cases for an implementation are mandatory for LEAPs but can be included with the implementation..-->
-
   
 ### Configurable Values
 <!--Please list all values configurable under this implementation.-->
-Hosting period : 3 Years
+Hosting period : 3 Years Extendable
 Incentives for hosting: 200,000 $LYRA
 Rewards per trade : 5% Capped at 3,000,000 $LYRA
 
+
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
