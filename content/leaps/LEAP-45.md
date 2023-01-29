@@ -51,12 +51,12 @@ Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA regio
 7) Part of the inital $LYRA incentives will be liquidated, remainder to be staked.
 8) Preview for Lyra feature : 
 
-![Homepage](https://github.com/beankirk/LEAPs/blob/7eb52c3d978b4170416e1c7012e31a11d20c0555/content/leaps/assets/Lyra%20Feature.png)
+![Homepage](content/leaps/assets/leap-45/Homepage.png)
 
-![Feature](https://github.com/beankirk/LEAPs/blob/7eb52c3d978b4170416e1c7012e31a11d20c0555/content/leaps/assets/Lyra%20Feature.png)
+![Feature](content/leaps/assets/leap-45/LyraFeature.png)
 
-![Webpage](https://github.com/beankirk/LEAPs/blob/7eb52c3d978b4170416e1c7012e31a11d20c0555/content/leaps/assets/Website.png)
-  
+![Webpage](content/leaps/assets/leap-45/Website.png)
+
 ### Test Cases
 <!--Test cases for an implementation are mandatory for LEAPs but can be included with the implementation..-->
   
