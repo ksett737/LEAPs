@@ -14,7 +14,7 @@ The passing of this proposal will allow Coinstore to host Lyra's frontend on Coi
   
 ## Abstract
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the LEAP is implemented, not *why* it should be done or *how* it will be done. If the LEAP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
-We propose to fork and self-host Lyra's most up to date and stable open source UI/UX for a 3 year period, if one is not available then a fork of a prefered interface will be hosted instead. Lyra will be featured on Coinstore's discover page as "Lyra Finance". We are requesting 200,000 $LYRA pre-deployment and 5% reward per trade with a max cap of 3,000,000 $LYRA once fork is live. The terms of this agreement should be reviewed and evaluated in May 2023, if terms are to be amended a subsequent LEAP will be deployed.    
+We propose to fork and self-host Lyra's most up to date and stable open source UI/UX for a 3 year period, if one is not available then a fork of a prefered interface will be hosted instead. Lyra will be featured on Coinstore's discover page as "Lyra Finance". We are requesting 170,000 $LYRA pre-deployment and 5% reward per trade with a max cap of 3,000,000 $LYRA once fork is live. The terms of this agreement should be reviewed and evaluated in May 2023, if terms are to be amended a subsequent LEAP will be deployed.    
 
 ## Motivation
 <!--This is the problem statement. This is the *why* of the LEAP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the LEAP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the LEAP will address the issue!-->
@@ -61,7 +61,7 @@ Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA regio
 ### Configurable Values
 <!--Please list all values configurable under this implementation.-->
 Hosting period : 3 Years Extendable
-Incentives for hosting: 200,000 $LYRA
+Incentives for hosting: 170,000 $LYRA
 Rewards per trade : 5% Capped at 3,000,000 $LYRA
 
 
