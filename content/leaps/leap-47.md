@@ -25,7 +25,13 @@ Every part of Camelot is designed to incentivize long-term and sustainable behav
 The Round Table plays a significant part in our approach, intending to foster collaboration and innovation within the Arbitrum ecosystem. Camelot is deeply connected with the key Arbitrum builders; therefore, by being on the Round Table, Lyra would also have access to this network.
 
 ## Specification
-The current recommendation is the .3-.5% fee tier for a standard Nitro pool. The fee tier and trading pair to be incentivized can be updated by Council via discord consensus. Council may subsequently decide to split rewards to lock LP tokens for an agreed-upon duration.   
+
+- LYRA/ETH pool (pair) w/ the fee settings - it is recommended to use the .3-.5% fee tier initially
+- Farming emissions (in GRAIL/xGRAIL) - $5,000 worth of incentives in xGRAIL matched 1:1 in dollar value with stkLYRA or LYRA
+- Nitro Pools - Council can consider adding a Nitro pool as an additional layer of incentives, w/ optional custom requirements to be eligible
+
+The fee tier and trading pair to be incentivized can be updated by Council via discord consensus. Council may subsequently decide to split rewards between a regular Lyra pool and a Nitro Pool. 
+
 
 ### Overview
 This proposal intends to bring significant value to the Lyra protocol by building deep and sustainable liquidity for $LYRA on Arbitrum. In return for seeding the initial liquidity, we allow the Lyra protocol to have direct exposure to Camelot through a partner token allocation. We aim to achieve a highly effective return on liquidity incentives through a structured and bespoke approach.
@@ -40,8 +46,8 @@ Camelot is committed to formally welcoming Lyra to the Round Table, supporting $
 Camelot is committed to forming a long-term partnership that will provide Lyra with bespoke support for its liquidity requirements on Arbitrum. 
 
 ### Configurable Values
-- Lyra Rewards = $5,000 USD worth monthly
-- Camelot Rewards $5,000 USD worht monthly
+- Lyra Rewards = $5,000 USD worth of stkLYRA per month
+- xGRAIL Rewards $5,000 USD worth of xGRAIL per month
 - xGRAIL allocation = .2% total supply 
 - Protocol Owned Liquidity = $100k 
 - Initial Fee Tier = .5% 
