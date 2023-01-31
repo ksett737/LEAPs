@@ -1,10 +1,10 @@
 ---
-LEAP: <to be assigned>
+LEAP: 47
 title: <Camelot Round Table - LYRA liquidity on Arbitrum>
 status: Draft
 author: < <0xmyrddin> (@0xmyrddin) >
 
-created: <2023-01-31>
+created: 2023-01-31
 requires (*optional): <LEAP number(s)>
 ---
 
