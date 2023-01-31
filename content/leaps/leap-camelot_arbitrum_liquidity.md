@@ -1,11 +1,10 @@
 ---
 LEAP: 47
-title: <Camelot Round Table - LYRA liquidity on Arbitrum>
+title: Camelot Round Table - LYRA liquidity on Arbitrum
 status: Draft
-author: < <0xmyrddin> (@0xmyrddin) >
+author: <0xmyrddin> (@0xmyrddin) 
 
 created: 2023-01-31
-requires (*optional): <LEAP number(s)>
 ---
 
 ## Simple Summary
