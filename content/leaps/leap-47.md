@@ -1,5 +1,5 @@
 ---
-leap: 47
+leap: 46
 title: Camelot Round Table - LYRA liquidity on Arbitrum
 status: Draft
 author: 0xmyrddin (@0xmyrddin) 
