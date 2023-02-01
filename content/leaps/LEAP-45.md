@@ -45,8 +45,8 @@ Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA regio
 <!--Please list all values configurable under this implementation.-->
 1) Hosting period : 3 Years Extendable.
 2) Incentives for hosting: 170,000 $LYRA.
-3) Rewards per trade : 5% Capped at 300,000 $LYRA.(To be reviewed in May 2023)
-4) Coinstore traders : Fees rebates from $stkLYRA.(To be reviewed in May 2023)
+3) Rewards per trade : 5% Capped at 300,000 $LYRA. (To be reviewed in May 2023)
+4) Coinstore traders : Fees rebates from $stkLYRA. (To be reviewed in May 2023)
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
