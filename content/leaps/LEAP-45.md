@@ -5,9 +5,7 @@ status: Draft
 author: beankirk (@beankirk)
 created: 2023-01-21
 ---
-
 <!--You can leave these HTML comments in your merged LEAP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new LEAPs. Note that a LEAP number will be assigned by an editor. When opening a pull request to submit your LEAP, please use an abbreviated title in the filename, `leap-draft_title_abbrev.md`. The title should be 44 characters or less.-->
-
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 The passing of this proposal will allow Coinstore to host Lyra's frontend on Coinstore's centralised exchange. This is will be the first true integration between DeFi and CeFi, Coinstore will be working closely with Lyra in regards with the integration of the proposed fork.  
@@ -22,23 +20,11 @@ Since the crash of FTX, many people lost total trust in CEXs with Binance showin
 
 As for the UI/UX hosting with Coinstore, I believe the value and target audience are non-natives with Coinstore to bridge, Lyra's community to Educate. We will be working towards our shared goal of DeFi adoption and it’s definitely going to be a long and tough road ahead. However, me, my team and Coinstore are ready to commit to a long term partnerhship, I believe our ultimate goal is about targeting non-natives with our end game being mass adoption. 
 
-## Specification
-<!--The specification should describe the syntax and semantics of any new feature, there are five sections
-1. Overview
-2. Rationale
-3. Technical Specification
-4. Test Cases
-5. Configurable Values
--->
-
 ### Overview
 <!--This is a high level overview of *how* the LEAP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 This partnerhhip would mean Lyra will be exposed to a new stream of users and Coinstore to the DeFi community. I believe the success of this LEAP will start the first of many LEAPs we will be working even closer with the implementation of Lyra's UI/UX. With Lyra's UI/UX being live, we will be launching our DeFi academy as well in support of Lyra. This is where users unfamiliar with DeFi are able to understand, this way we can facilitate and welcome new users of DeFi, beginning with Lyra. 
 
-Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA region. Peak daily VOL @ ~630M (2022),  minimum daily VOL 20M (2022),  Current daily VOL ~144M. Ranked #21 on CG, #77 on CMC. (Accurate at time of writing)
-
-### Rationale
-<!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA region. Peak daily VOL @ ~630M (2022),  minimum daily VOL 20M (2022), Current daily VOL ~144M. Ranked #21 on CG, #77 on CMC. (Accurate at time of writing)
 
 ### Technical Specification
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Lyra currently exposes or the creations of new ones.-->
@@ -54,17 +40,13 @@ Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA regio
 ![Homepage](assets/leap-45/Homepage-resized.png) ![Feature](assets/leap-45/LyraFeature-resized.png)
 
 ![Webpage](assets/leap-45/Website-resized.png)
-
-### Test Cases
-<!--Test cases for an implementation are mandatory for LEAPs but can be included with the implementation..-->
   
 ### Configurable Values
 <!--Please list all values configurable under this implementation.-->
-Hosting period : 3 Years Extendable
-Incentives for hosting: 170,000 $LYRA
-Rewards per trade : 5% Capped at 3,000,000 $LYRA
-
+1) Hosting period : 3 Years Extendable.
+2) Incentives for hosting: 170,000 $LYRA.
+3) Rewards per trade : 5% Capped at 300,000 $LYRA. (To be reviewed in May 2023)
+4) Coinstore traders : Fees rebates from $stkLYRA. (To be reviewed in May 2023)
 
 ## Copyright
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
