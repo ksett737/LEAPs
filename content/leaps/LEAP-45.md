@@ -26,13 +26,15 @@ This partnerhhip would mean Lyra will be exposed to a new stream of users and Co
 
 Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA region. Peak daily VOL @ ~630M (2022),  minimum daily VOL 20M (2022), Current daily VOL ~144M. Ranked #21 on CG, #77 on CMC. (Accurate at time of writing)
 
+Coinstore will be fork Lyra's UI/UX - lyrafinance/lyra-js and host Lyra's interface on our discover page. No other smart contracts will be builted or integrated between Lyra and Coinstore's platform. This way users can have a much better UX by directly interacting with Lyra as opposted to hosting Lyra on webview, a redundant additional layer. When someone interacts with Lyra, the interaction is registered directly with the native Lyra platform. There he won't be a need for an additional smart contracts for this setup. Additionally, our tech team can be easily configure/customised/restyled the interface with minimal effort. Hence making everything as streamlined a posible. With the API connection to Lyra's backend live, the interface would works pretty much similar to Lyra's DAPP with minute differeneces in styling/design.
+
 ### Technical Specification
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Lyra currently exposes or the creations of new ones.-->
-1) Coinstore to host latest stable interface fork of Lyra. 
-2) If not available, a prefered fork will be hosted.
-3) Lyra's team to provide support for the duration of the partnership.
+1) Coinstore to host the latest stable UI/UX fork of Lyra. (lyrafinance/lyra-js)
+2) If not available, a prefered fork will be hosted. 
+3) Lyra's team to provide backend support for the duration of the partnership.
 4) UI hosted as Lyra Finance.
-5) Rewards Model to be revaluated in May 2023.
+5) Rewards Model to be tested/evaluated. 
 6) Address : 0x1390e61Ac63c56e80649bD1405AdC6E3D4a069ad
 7) Part of the inital $LYRA incentives will be liquidated, remainder to be staked.
 8) Preview for Lyra feature : 
@@ -46,7 +48,6 @@ Coinstore currently has 2.3 to 2.4 (KYC) million users, mainily in the SEA regio
 1) Hosting period : 3 Years Extendable.
 2) Incentives for hosting: 170,000 $LYRA.
 3) Rewards per trade : 5% Capped at 300,000 $LYRA. (To be reviewed in May 2023)
-4) Coinstore traders : Fees rebates from $stkLYRA. (To be reviewed in May 2023)
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
