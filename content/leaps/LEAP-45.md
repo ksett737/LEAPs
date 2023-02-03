@@ -31,10 +31,10 @@ Coinstore will be fork Lyra's UI/UX - lyrafinance/lyra-js and host Lyra's interf
 ### Technical Specification
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Lyra currently exposes or the creations of new ones.-->
 1) Coinstore to host the latest stable UI/UX fork of Lyra. (lyrafinance/lyra-js)
-2) If not available, a prefered fork will be hosted. 
+2) If not available, a prefered fork/branch will be hosted. 
 3) Lyra's team to provide backend support for the duration of the partnership.
 4) UI hosted as Lyra Finance.
-5) Rewards Model to be tested/evaluated. 
+5) Rewards Model to be tested/evaluated until May 2023.
 6) Address : 0x1390e61Ac63c56e80649bD1405AdC6E3D4a069ad
 7) Part of the inital $LYRA incentives will be liquidated, remainder to be staked.
 8) Preview for Lyra feature : 
