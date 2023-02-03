@@ -34,10 +34,8 @@ Coinstore will be fork Lyra's UI/UX - lyrafinance/lyra-js and host Lyra's interf
 2) If not available, a prefered fork/branch will be hosted. 
 3) Lyra's team to provide backend support for the duration of the partnership.
 4) UI hosted as Lyra Finance.
-5) Rewards Model to be tested/evaluated until May 2023.
-6) Address : 0x1390e61Ac63c56e80649bD1405AdC6E3D4a069ad
-7) Part of the inital $LYRA incentives will be liquidated, remainder to be staked.
-8) Preview for Lyra feature : 
+5) Address : 0x1390e61Ac63c56e80649bD1405AdC6E3D4a069ad
+6) Preview for Lyra feature : 
 
 ![Homepage](assets/leap-45/Homepage-resized.png) ![Feature](assets/leap-45/LyraFeature-resized.png)
 
@@ -45,9 +43,8 @@ Coinstore will be fork Lyra's UI/UX - lyrafinance/lyra-js and host Lyra's interf
   
 ### Configurable Values
 <!--Please list all values configurable under this implementation.-->
-1) Hosting period : 3 Years Extendable.
-2) Incentives for hosting: 170,000 $LYRA.
-3) Rewards per trade : 5% Capped at 300,000 $LYRA. (To be reviewed in May 2023)
+1) Hosting period : 3 Years 
+2) Incentives for hosting: 150,000 $LYRA.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
