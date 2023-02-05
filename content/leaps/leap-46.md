@@ -1,7 +1,7 @@
 ---
 leap: 46
 title: Camelot Round Table - LYRA liquidity on Arbitrum
-status: Draft
+status: Proposed
 author: 0xmyrddin (@0xmyrddin) 
 
 created: 2023-01-31
