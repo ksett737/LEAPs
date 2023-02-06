@@ -1,7 +1,7 @@
 ---
 leap: 44
 title: Incentives for LYRA-ETH Mainnet Liquidity
-status: Approved
+status: Implemented
 author: dappbeast (@dappbeast)
 created: 2022-03-08
 ---
