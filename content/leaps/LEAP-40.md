@@ -1,7 +1,7 @@
 ---
 leap: 40
 title: Incentivize Velodrome Liquidity on Optimism
-status: Approved
+status: Implemented
 author: ksett (@ksett737), Cody
 created: 2022-12-07
 ---
