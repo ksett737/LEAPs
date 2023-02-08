@@ -1,5 +1,5 @@
 ---
-LEAP: <to be assigned>
+leap: 48
 title: Messari Protocol Services
 status: Draft
 author: Renna Ba (renna.ba@messari.io)
