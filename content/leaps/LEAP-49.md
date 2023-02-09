@@ -16,7 +16,7 @@ This LEAP proposes a fee referral program as an extension of the trading rewards
 
 ## Motivation
 
-While the current trading rewards program has successfully retained existing traders and aligned them with the DAO, it has broadly failed to attract new traders and new sources of volume. A simple referral program that rewards individual referrers, apps such as Kwenta, and integrations such as Polynomial, will help create a referral flywheel and generate more protocol volumes.
+While the current trading rewards program has successfully retained existing traders and aligned them with the DAO, it has broadly failed to attract new traders and new sources of volume. A simple referral program that rewards individual referrers, apps such as Kwenta, and integrations such as Polynomial, will help generate more protocol volumes.
 
 Additionally, the current fee tiers [dune query](https://dune.com/queries/1926613) of active traders on Optimism shows high drop off after the 1m stkLYRA fee tier.
 
@@ -31,7 +31,7 @@ The fee referral program is split into two tiers for referrers:
 
 All referrers automatically qualify for Tier 1. To qualify for Tier 2:
 
-- Referrers must be manually allowlisted by the Council in public forums and hardcoded in open source repos calculating trading rewards. This incentivises referrers attracting substantial volumes to be transparent with the community and disincentivises malicious activities like wash trading.
+- Referrers must be manually allowlisted by the Council in public forums and tracked in a transparent, open source manner (e.g. via a GitHub repo). This incentivises referrers attracting substantial volumes to be transparent with the community and disincentivises malicious activities like wash trading.
 - Referrers must generate $10,000 in fees over the 2 week epoch. This incentivises successful referrers to maintain Tier 2 status.
 
 Additional properties of the referral program:
