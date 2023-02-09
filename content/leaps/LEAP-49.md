@@ -1,7 +1,7 @@
 ---
 leap: 49
 title: Fee Referral Program
-status: Draft
+status: Proposed
 author: dappbeast
 created: 2023-2-9
 ---
