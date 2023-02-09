@@ -2,7 +2,7 @@
 leap: 48
 title: Messari Protocol Services
 status: Draft
-author: Renna Ba (renna.ba@messari.io)
+author: Renna Ba (@rennaba)
 created: 2023-02-08
 ---
 
