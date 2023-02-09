@@ -3,24 +3,24 @@ leap: 48
 title: Messari Protocol Services
 status: Draft
 author: Renna Ba (renna.ba@messari.io)
-
 created: 2023-02-08
+---
 
-**Simple Summary**
+## Simple Summary
 
 We propose that Messari provides research and reporting services in the form of recurring quarterly reports.
 
-**Abstract**
+## Abstract
 
 Messari will provide Lyra with four quarterly reports that present and analyze major KPIs and fundamental metrics to inform existing stakeholders and attract new ones while building out the open-source data infrastructure for the community.
 
 These reports would live as free resources on Messari and would be distributed through our newsletter, social channels, and third-party distribution partners, including Bloomberg, S&P Global, and Refinitiv.
 
-**Motivation**
+##  Motivation
 
 Quarterly reporting provides the necessary tools to ensure transparency and accountability. The goal of this proposal is to provide Lyra with the level of professional and standardized 10 Q equivalent "protocol level income statement" that aims to address the following needs.
 
-**Surfacing on-chain metrics and protocol developments**
+### Surfacing on-chain metrics and protocol developments
  
 Crypto has a glaring lack of sufficient long-form research and analytics. While there are various analytics dashboards, blog posts, and messaging channels to distill information, it is still cumbersome to have a strong understanding of the on-chain activity and important protocol-level developments.
 
@@ -28,7 +28,7 @@ This creates a high barrier to making informed decisions as a stakeholder, leadi
 
 As we continue in a bear market, it will become increasingly important to surface real usage and developments as industry participants tend to overweight price as their barometer of project success.
 
-**Distribution**
+### Distribution
  
 Over the last few years, the number of projects has increased by an order of magnitude, making it increasingly difficult for any one project to get its message out to the entirety of the crypto world.
 
@@ -36,9 +36,17 @@ Furthermore, mainstream news and research platforms have woefully covered the sp
  
 Quarterly reporting is a widely recognized best practice to help establish credibility and increase transparency. As Lyra continues its growth and development, it becomes ever more important to have regular analysis of performance in an objective and professional manner.
 
-**Specification**
+## Specification
 
-**4 Quarterly Reports Beginning Q2 that include:**
+<!--The specification should describe the syntax and semantics of any new feature, there are five sections
+1. Overview
+2. Rationale
+3. Technical Specification
+4. Test Cases
+5. Configurable Values
+-->
+
+### 4 Quarterly Reports Beginning Q2 that include:
  
 Analysis of Major KPIs and Fundamental Metrics:
  
@@ -61,7 +69,7 @@ Qualitative Analysis:
 
 All analyses are conducted by a team of sector-specific analysts that builds the infrastructure needed to parse through raw data information to be synthesized into digestible formats for qualitative deep dives.
 
-**Budget Breakdown:**
+### Budget Breakdown
  
 The 4 reports would be $25,000/each paid quarterly.
  
@@ -71,15 +79,15 @@ This goes towards funding:
 2. Data science and engineering - Each report will have its own dedicated data science and engineering team providing all the relevant raw data
 3. Distribution - We distribute the reports across all of Messari's channels along with the third-party partners.
 
-**Additional Services**
+### Additional Services
 
-**Messari Governor Page Development**
+### Messari Governor Page Development ###
  
 Messari's governor team will build the complete profile and tools for Lyra's community to find, follow and participate in the DAO process as Lyra looks to [further expand](https://leaps.lyra.finance/leaps/leap-29) its governance processes.
  
 <img width="1407" alt="Screen Shot 2023-02-08 at 10 35 58 AM" src="https://user-images.githubusercontent.com/124748496/217560543-7bdb30ec-df92-4494-aaa5-fe56dd2c5697.png">
 
-**Rational**
+### Rationale
 
 Stakeholders relations are a necessary function of any organization to keep existing participants adequately informed while also attracting new ones through better surfacing of fundamental data.
  
@@ -95,12 +103,12 @@ We believe it's important to get outside the crypto bubble to make a wider impac
 
 <img width="311" alt="Reader Information" src="https://user-images.githubusercontent.com/124748496/217561325-dc8dce05-36c2-45f3-a8da-65e030603ea3.png">
 
-**Test Cases / Example Reports**
+## Test Cases
 
 [dYdX](https://messari.io/report/state-of-dydx-q4-2022?referrer=protocol-reporting-research)
 [Euler](https://messari.io/report/state-of-euler-q4-2022?referrer=protocol-reporting-research)
 [Morpho](https://messari.io/report/state-of-morpho-q4-2022?referrer=protocol-reporting-research)
 
-**Copyright Waiver**
+## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
