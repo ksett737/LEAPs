@@ -2,8 +2,7 @@
 leap: 17
 title: Establishing GrantsDAO
 status: Implemented
-author: Cinque (@Cinqu3), Burtrock
-editor: Ksett
+author: Cinque (@Cinqu3), Burtrock, Ksett
 created: 2022-02-03
 ---
 
