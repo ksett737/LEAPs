@@ -105,7 +105,7 @@ In this system, Lyra Governance will take ownership of all treasury assets curre
 
 Lyra Governance V2 makes the protocol significantly more dependable, in part because it increases the time taken for a change to be made. This is desirable when it comes to decisions such as deploying new smart contracts, launching a new market or introducing a new incentive program. However, with respect to protocol performance and safety, responsiveness is critical.
 
-Consider the following scenario - a bug discovered in the smart contract code that results in an active exploit. The community needs to be able to act fast to ensure that any loss of assets is kept to a minimum. In the governance system, a proposal would need to be voted on, approved and executed, which would take days at best. In addition, there are many complex parameters that ocassionaly require swift updates to respond to market conditions.
+Consider the following scenario - a bug discovered in the smart contract code that results in an active exploit. The community needs to be able to act fast to ensure that any loss of assets is kept to a minimum. In the governance system, a proposal would need to be voted on, approved and executed, which would take days at best. In addition, there are many complex parameters that occasionally require swift updates to respond to market conditions.
 
 #### Governance Wrapper ####
 
