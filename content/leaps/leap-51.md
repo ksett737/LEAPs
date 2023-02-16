@@ -230,7 +230,7 @@ In order to migrate from V1 governance, the following actions need to occur:
 
 # Test Cases
 
-Test cases are included with the implementation and are available [here](https://github.com/lyra-finance/governance/tree/master/test).
+Test cases are included with the implementation and will be available soon.
 
 # Configurable Values
 
