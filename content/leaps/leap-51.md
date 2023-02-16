@@ -86,7 +86,7 @@ Each LEAP must include the following:
 
 **3.1.2.2 LEAP Life Cycle**
 
-![lyra-governance.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44e8fd0f-6216-4f59-aa50-2777940f7789/lyra-governance.svg)
+![lyra-governance.svg](assets/lyra-governance.svg)
 
 1. Creation - The author(s) write the LEAP using the specified template.
 2. Community - The LEAP is published to the community.
@@ -153,7 +153,7 @@ At a technical level, Lyra Governance is very similar to [Aave Governance v2](ht
 
 In the diagram below, we visualise the architecture of these components: 
 
-![lyra-structure.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1def81a4-9628-4c13-8e90-ef7e3e09a291/lyra-structure.svg)
+![lyra-structure.svg](assets/lyra-structure.svg)
 
 #### 3.3.1.1 Creation ####
 
@@ -208,7 +208,7 @@ The long-time lock executor can change the following parts of the Lyra protocol:
 
 The cross-chain bridge executors extend Lyra Governance on Ethereum to other networks.
 
-![arbitrum-governance-bridge.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9615554e-5881-48dd-9404-24b757b0e8e7/arbitrum-governance-bridge.svg)
+![arbitrum-governance-bridge.svg](assets/arbitrum-governance-bridge.svg)
 
 ### 3.3.4 Migration
 
