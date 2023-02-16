@@ -96,7 +96,6 @@ Each LEAP must include the following:
     1. Approval - If the LEAP is approved, the payload is sent to the relevant timelock for automatic execution.
     2. Rejected - If the LEAP is rejected, there is no further action.
 
-Retaining Operational Efficiency and Responsiveness
 
 ### Treasury ###
 
@@ -104,19 +103,13 @@ In this system, Lyra Governance will take ownership of all treasury assets curre
 
 ### Protocol ###
 
-#### Tension ####
-
 Lyra Governance V2 makes the protocol significantly more dependable, in part because it increases the time taken for a change to be made. This is desirable when it comes to decisions such as deploying new smart contracts, launching a new market or introducing a new incentive program. However, with respect to protocol performance and safety, responsiveness is critical.
 
-#### Safety and Performance ####
-
-Consider the following scenario - a bug discovered in the smart contract code that results in an active exploit. The community needs to be able to act fast to ensure that any loss of assets is kept to a minimum. In the governance system, a proposal would need to be voted on, approved and executed, which would take days at best.
-
-In addition, there are many complex parameters that require modification to respond to market parameters (i.e. slippage).
+Consider the following scenario - a bug discovered in the smart contract code that results in an active exploit. The community needs to be able to act fast to ensure that any loss of assets is kept to a minimum. In the governance system, a proposal would need to be voted on, approved and executed, which would take days at best. In addition, there are many complex parameters that ocassionaly require swift updates to respond to market conditions.
 
 #### Governance Wrapper ####
 
-For safety and performance reasons, we are proposing the idea of a risk council and “governance wrapper”. Token holders will elect the council and set the bounds of the parameters which can be changed. This means this council will not be able to set parameters to a level where exploitation is possible, but they will be able to:
+For safety and performance reasons, we are proposing the idea of a risk council and governance wrapper. Token holders will elect the council and set the bounds of the parameters which can be changed. This means this council will not be able to set parameters to a level where exploitation is possible, but they will be able to:
 
 1. Pause the protocol in an emergency, with only token holders able to resume it.
 2. Modify parameters within bounds, allowing for better performance of the protocol.
@@ -127,9 +120,9 @@ This idea will be expanded upon in a subsequent LEAP and until implemented, prot
 
 ### On-chain vs Off-chain Governance ###
 
-Off-chain governance allows faster decision-making and improves the speed of iteration. However, it relies on third parties to implement proposals that undermine the dependability of the project. Early-stage projects often choose off-chain governance while things are changing constantly. As the project matures, on-chain governance is needed to promote confidence in the protocol.
+Off-chain governance allows faster decision-making and improves the speed of iteration. However, it relies on third parties to implement proposals, which undermines the dependability of the project. Early-stage projects often choose off-chain governance to begin with and as the project matures, they transition to on-chain governance.
 
-### Governance Framework ###
+### Frameworks ###
 
 The two most popular types of on-chain governance frameworks are:
 
