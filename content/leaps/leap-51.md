@@ -123,11 +123,13 @@ For safety and performance reasons, we are proposing the idea of a risk council 
 
 This idea will be expanded upon in a subsequent LEAP and until implemented, protocol contracts will not be transferred to Lyra Governance.
 
-## Rationale
+## Rationale ##
 
-### On-chain vs Off-chain Governance
+### On-chain vs Off-chain Governance ###
 
-### Governance Framework
+Off-chain governance allows faster decision-making and improves the speed of iteration. However, it relies on third parties to implement proposals that undermine the dependability of the project. Early-stage projects often choose off-chain governance while things are changing constantly. As the project matures, on-chain governance is needed to promote confidence in the protocol.
+
+### Governance Framework ###
 
 The two most popular types of on-chain governance frameworks are:
 
@@ -136,7 +138,7 @@ The two most popular types of on-chain governance frameworks are:
 
 Aave governance has a very similar structure and workflow to both of these systems but has the added benefit of working natively with the staked LYRA token (which was forked from Aave’s staked token). While it hasn’t been deployed across as many projects, it has secured Aave’s multi-billion dollar TVL for over 2 years, providing a considerable degree of confidence in it’s implementation.
 
-##Technical Specification
+## Technical Specification ##
 
 At a technical level, Lyra Governance is very similar to [Aave Governance v2](https://github.com/aave/governance-v2). It shares the same high-level components and source code, with minor adjustments:
 
