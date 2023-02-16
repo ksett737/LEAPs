@@ -26,7 +26,7 @@ In this system, proposals are fully on-chain, binding and auto-execute without r
 
 ## Motivation
 
-## 2.1 Governance and Tokens
+## Governance and Tokens
 
 Governance is [required](https://fehrsam.xyz/blog/governance-minimization) for the aspects of a protocol that require human input (i.e. things that cannot be automated). There are two main areas of any project that require such input:
 
@@ -38,41 +38,41 @@ Governance is [required](https://fehrsam.xyz/blog/governance-minimization) for t
 
 The need for a governance framework that can manage a protocol and treasury has led to [several](https://vitalik.ca/general/2017/12/17/voting.html) experiments, with governance tokens proving the most effective. Tokens align the different stakeholders in a project toward a common goal (although not without significant [drawbacks](https://vitalik.ca/general/2021/08/16/voting3.html), i.e. [plutocracy](https://vitalik.ca/general/2018/03/28/plutocracy.html)).
 
-## 2.2 Governance V1 and Tradeoffs
+## Governance V1 and Tradeoffs
 
 Lyra Governance V1 is a system for governing the DAO via a governance token known as LYRA. It was introduced in [LEAP-15](https://leaps.lyra.finance/leaps/leap-15) and is centred around a 5 seat representative council known as the Lyra Council. Token holders elect the council, which administers the [LEAP framework](https://leaps.lyra.finance/). A LEAP is a proposal to change part of the protocol and can be created by anyone in the community. 
 
 The council model offers great speed and flexibility, allowing the project to evolve rapidly. In 18 months, we approved over 40 LEAPs, launching the [protocol](https://leaps.lyra.finance/leaps/leap-2), [token](https://leaps.lyra.finance/leaps/leap-8), [two](https://leaps.lyra.finance/leaps/leap-16) [major](https://leaps.lyra.finance/leaps/leap-18) [upgrades](https://leaps.lyra.finance/leaps/leap-36) (Avalon and [Newport](https://leaps.lyra.finance/leaps/leap-38)) and many [others](https://leaps.lyra.finance/all-leap). However, the speed afforded by the council model comes at a cost.  Proposals are off-chain, which introduces implementation risk that affects both the protocol and the treasury. This serves to undermine the dependability of the project.
 
-## 2.3 Becoming Dependable
+## Becoming Dependable
 
 With the recent launch of Newport, we have a protocol that can be deployed on any EVM-compatible network and integrated with any perpetual venue for hedging. This is a foundation on which we can attract legitimate institutions to build on the protocol, provide liquidity and trade. However, they need a governance process that they can depend on. We intend this iteration of Lyra Governance to be a meaningful step on the path of progressive decentralisation.
 
 
 ## Specification
 
-## 3.1 Overview
+## Overview
 
 Lyra Governance V2 allows LYRA holders to directly govern the protocol and treasury via an on-chain system. By staking the LYRA token, holders receive a governance token, stkLYRA, with governance rights that enable them to make proposals, vote or delegate to other token holders. Proposals are called LEAPS, which are fully on-chain, binding and execute automatically, without any reliance on a third party. Cross-chain governance is supported, allowing the management of multiple protocol deployments and treasuries on different networks. 
 
 In this overview, we provide a non-technical description of the governance framework.
 
-### 3.1.1 Token Rights
+### Token Rights
 
 LYRA token holders can stake their LYRA to receive stkLYRA, which grants governance powers proportionally to their balance. There are initially two powers associated with the stkLYRA token:
 
 1. **Proposal right** - gives access to creating a proposal.
 2. **Voting right** - enables voting on existing proposals.
 
-### 3.1.2 Delegation
+### Delegation
 
 Users can choose to delegate one or both of these rights. This enables Lyra Governance to retain the benefits of a council-based model, where less informed participants can delegate to others, without introducing the implementation risks currently associated with the off-chain council model.
 
-### 3.1.2 Lyra Enhancement Action Proposals (LEAPs)
+### Lyra Enhancement Action Proposals (LEAPs)
 
 A LEAP is any proposal that impacts the protocol, treasury or governance framework. It has been adapted from industry standard frameworks, such as [EIP](https://eips.ethereum.org/) and [BIP](https://github.com/bitcoin/bips/blob/master/bip-0001.mediawiki). Examples may include protocol changes (listing new markets and changing parameters), treasury actions (allocating LYRA tokens and remunerating contributors) as well as meta-governance updates (changing the governance process itself).
 
-**3.1.2.1 LEAP Structure**
+#### LEAP Structure ####
 
 Each LEAP must include the following:
 
@@ -84,7 +84,7 @@ Each LEAP must include the following:
 - Test Cases - Test cases are required for code-related proposals (i.e. non treasury actions).
 - Copyright Waiver - All LEAPs must be in the public domain. See the bottom of this LEAP for an example copyright waiver.
 
-**3.1.2.2 LEAP Life Cycle**
+#### LEAP Life Cycle ####
 
 ![lyra-governance.svg](assets/lyra-governance.svg)
 
@@ -98,23 +98,23 @@ Each LEAP must include the following:
 
 Retaining Operational Efficiency and Responsiveness
 
-### 3.1.3 Treasury ###
+### Treasury ###
 
 In this system, Lyra Governance will take ownership of all treasury assets currently held in the multisig safes on Ethereum, Optimism and Arbitrum. This means that any movement of DAO funds will require a proposal to be passed. Any group can make a proposal to governance for funding. This may include the current core contributors and/or any other third party who wishes to work on the protocol.
 
-### 3.1.4 Protocol ###
+### Protocol ###
 
-#### 3.1.4.1 Tension ####
+#### Tension ####
 
 Lyra Governance V2 makes the protocol significantly more dependable, in part because it increases the time taken for a change to be made. This is desirable when it comes to decisions such as deploying new smart contracts, launching a new market or introducing a new incentive program. However, with respect to protocol performance and safety, responsiveness is critical.
 
-#### 3.1.5.2 Safety and Performance ####
+#### Safety and Performance ####
 
 Consider the following scenario - a bug discovered in the smart contract code that results in an active exploit. The community needs to be able to act fast to ensure that any loss of assets is kept to a minimum. In the governance system, a proposal would need to be voted on, approved and executed, which would take days at best.
 
 In addition, there are many complex parameters that require modification to respond to market parameters (i.e. slippage).
 
-#### 3.1.4.3 Governance Wrapper ####
+#### Governance Wrapper ####
 
 For safety and performance reasons, we are proposing the idea of a risk council and “governance wrapper”. Token holders will elect the council and set the bounds of the parameters which can be changed. This means this council will not be able to set parameters to a level where exploitation is possible, but they will be able to:
 
@@ -123,11 +123,11 @@ For safety and performance reasons, we are proposing the idea of a risk council 
 
 This idea will be expanded upon in a subsequent LEAP and until implemented, protocol contracts will not be transferred to Lyra Governance.
 
-## 3.2 Rationale
+## Rationale
 
-### 3.2.1 On-chain vs Off-chain Governance
+### On-chain vs Off-chain Governance
 
-### 3.2.2 Governance Framework
+### Governance Framework
 
 The two most popular types of on-chain governance frameworks are:
 
@@ -136,7 +136,7 @@ The two most popular types of on-chain governance frameworks are:
 
 Aave governance has a very similar structure and workflow to both of these systems but has the added benefit of working natively with the staked LYRA token (which was forked from Aave’s staked token). While it hasn’t been deployed across as many projects, it has secured Aave’s multi-billion dollar TVL for over 2 years, providing a considerable degree of confidence in it’s implementation.
 
-## 3.3 Technical Specification
+##Technical Specification
 
 At a technical level, Lyra Governance is very similar to [Aave Governance v2](https://github.com/aave/governance-v2). It shares the same high-level components and source code, with minor adjustments:
 
@@ -155,37 +155,37 @@ In the diagram below, we visualise the architecture of these components:
 
 ![lyra-structure.svg](assets/lyra-structure.svg)
 
-#### 3.3.1.1 Creation ####
+#### Creation ####
 
 A proposal can be created by calling the `[create()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#create)` function. The caller must have a proposer power greater than the threshold and they must maintain it until the proposal is executed. After the proposal is created it assumes the `PENDING` state until the vote begins.
 
-#### 3.3.1.2 Voting ####
+#### Voting ####
 
 Voting begins after the `votingDelay` has elapsed, a value which can be read from `getVotingDelay()`. At this point, a snapshot of voting powers is taken and can no longer be delegated/transferred for the proposal being voted on. The proposal state is `ACTIVE` and users can submit a vote for or against the proposal, weighted by the user's total voting power (tokens + delegated voting power), within the allotted `[VOTING_DURATION](https://www.notion.so/developers/v/2.0/protocol-governance/governance#voting_duration)`.
 
-#### 3.3.1.3 End of Voting ####
+#### End of Voting ####
 
 For a proposal to pass the voting power of for-votes needs to reach the quorum set by the `[MINIMUM_QUORUM](https://www.notion.so/developers/v/2.0/protocol-governance/governance#minimum_quorum)` parameter. In addition, the difference between for-votes and against-votes (in % of total voting power) needs to exceed the vote differential threshold set by the `[VOTE_DIFFERENTIAL](https://www.notion.so/developers/v/2.0/protocol-governance/governance#vote_differential)` parameter. If the proposal has passed, then the proposal state becomes `SUCCEEDED`, otherwise, it is `FAILED`.
 
-#### 3.3.1.4 Queuing and execution ####
+#### Queuing and execution ####
 
 A `SUCCEEDED` proposal can be queued and will be executed after the execution delay and before the grace period expiration. The `delay` can be fetched from `[getDelay()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#getdelay)` and the `GRACE_PERIOD` can be fetched from `[GRACE_PERIOD()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#grace_period)`.
 
 The validation and execution of the proposal are performed by the time lock executor. A queued proposal state is `QUEUED.` A successfully executed proposal state is `EXECUTED`. If a queued proposal has not been executed before expiration, then the proposal state is `EXPIRED`.
 
-#### 3.3.1.5 Proposal Canceling ####
+#### Proposal Canceling ####
 
 If the proposal creator's proposal power decrease and no longer meet the `[PROPOSITION_THRESHOLD](https://www.notion.so/developers/v/2.0/protocol-governance/governance#proposition_threshold)`, any user can cancel the proposal. In addition as an initial safeguard to the protocol, the **guardian** account, controlled by a community multisig, is able to cancel a proposal before a proposal is executed. A cancelled proposal state is `CANCELED`.
 
-### 3.3.2 Governance Strategy
+### Governance Strategy
 
 The Governance Strategy is responsible for determining how voting power is calculated.
 
-### 3.3.3 Timelocks
+### Timelocks
 
 The timelock contracts are responsible for automatically executing approved proposals.
 
-#### 3.3.3.1 Short-time lock executor ####
+#### Short-time lock executor ####
 
 The short-time lock executor can change the following parts of Lyra:
 
@@ -197,53 +197,53 @@ The short-time lock executor can change the following parts of Lyra:
     - Arbitrum
     - Mainnet
 
-#### 3.3.3.2 Long-time lock executor ####
+#### Long-time lock executor ####
 
 The long-time lock executor can change the following parts of the Lyra protocol:
 
 - Staked LYRA
 - Governance System
 
-### 3.3.3 Cross-chain
+### Cross-chain
 
 The cross-chain bridge executors extend Lyra Governance on Ethereum to other networks.
 
 ![arbitrum-governance-bridge.svg](assets/arbitrum-governance-bridge.svg)
 
-### 3.3.4 Migration
+### Migration
 
 In order to migrate from V1 governance, the following actions need to occur:
 
-#### 3.3.4.1 Deploy Lyra governance V2 ####
+#### Deploy Lyra governance V2 ####
 
 1. Deploy the governance system on Ethereum L1
 
-#### 3.3.4.1 Ownership of treasury ####
+#### Ownership of treasury ####
 
 1. Transfer assets from Ethereum DAO Multisig to Short Executor
 2. Transfer assets from Optimism DAO Multisig to Optimism Executor
 3. Transfer assets from Arbitrum DAO Multisig to Arbitrum Exectuor
 
-#### 3.3.4.2 Ownership of protocol ####
+#### Ownership of protocol ####
 
 1. Transfer ownership of Optimism Protocol to Optimism Executor
 2. Transfer ownership of Arbitrum Protocol to Arbitrum Executor
 3. Governance Wrapper and Risk Council
 
-# 4. Test Cases
+# Test Cases
 
 Test cases are included with the implementation and are available [here](https://github.com/lyra-finance/governance/tree/master/test).
 
-# 5. Configurable Values
+# Configurable Values
 
-## 5.1 Governance
+## Governance
 
 - Voting Delay: 7200 blocks (approx 1 day with 12s blocks)
 - Guardian: Lyra Guardian Multisig
 - Executors Whitelisted: Long and Short
 - Owner: Long Executor
 
-## 5.2 Executor (short)
+## Executor (short)
 
 - Admin: Lyra Governance V2
 - Voting Delay: 1 day
@@ -253,7 +253,7 @@ Test cases are included with the implementation and are available [here](https:/
 - Vote differential: 0.5%
 - Quorum: 4%
 
-## 5.2 Executor (long)
+## Executor (long)
 
 - Admin: Lyra Governance V2
 - Voting Delay: 7 days
