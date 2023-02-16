@@ -159,25 +159,25 @@ In the diagram below, we visualise the architecture of these components:
 
 #### Creation ####
 
-A proposal can be created by calling the `[create()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#create)` function. The caller must have a proposer power greater than the threshold and they must maintain it until the proposal is executed. After the proposal is created it assumes the `PENDING` state until the vote begins.
+A proposal can be created by calling the `create()` function. The caller must have a proposer power greater than the threshold and they must maintain it until the proposal is executed. After the proposal is created it assumes the `PENDING` state until the vote begins.
 
 #### Voting ####
 
-Voting begins after the `votingDelay` has elapsed, a value which can be read from `getVotingDelay()`. At this point, a snapshot of voting powers is taken and can no longer be delegated/transferred for the proposal being voted on. The proposal state is `ACTIVE` and users can submit a vote for or against the proposal, weighted by the user's total voting power (tokens + delegated voting power), within the allotted `[VOTING_DURATION](https://www.notion.so/developers/v/2.0/protocol-governance/governance#voting_duration)`.
+Voting begins after the `votingDelay` has elapsed, a value which can be read from `getVotingDelay()`. At this point, a snapshot of voting powers is taken and can no longer be delegated/transferred for the proposal being voted on. The proposal state is `ACTIVE` and users can submit a vote for or against the proposal, weighted by the user's total voting power (tokens + delegated voting power), within the allotted `[VOTING_DURATION]`.
 
 #### End of Voting ####
 
-For a proposal to pass the voting power of for-votes needs to reach the quorum set by the `[MINIMUM_QUORUM](https://www.notion.so/developers/v/2.0/protocol-governance/governance#minimum_quorum)` parameter. In addition, the difference between for-votes and against-votes (in % of total voting power) needs to exceed the vote differential threshold set by the `[VOTE_DIFFERENTIAL](https://www.notion.so/developers/v/2.0/protocol-governance/governance#vote_differential)` parameter. If the proposal has passed, then the proposal state becomes `SUCCEEDED`, otherwise, it is `FAILED`.
+For a proposal to pass the voting power of for-votes needs to reach the quorum set by the `[MINIMUM_QUORUM]` parameter. In addition, the difference between for-votes and against-votes (in % of total voting power) needs to exceed the vote differential threshold set by the `[VOTE_DIFFERENTIAL]` parameter. If the proposal has passed, then the proposal state becomes `SUCCEEDED`, otherwise, it is `FAILED`.
 
 #### Queuing and execution ####
 
-A `SUCCEEDED` proposal can be queued and will be executed after the execution delay and before the grace period expiration. The `delay` can be fetched from `[getDelay()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#getdelay)` and the `GRACE_PERIOD` can be fetched from `[GRACE_PERIOD()](https://www.notion.so/developers/v/2.0/protocol-governance/governance#grace_period)`.
+A `SUCCEEDED` proposal can be queued and will be executed after the execution delay and before the grace period expiration. The `delay` can be fetched from `getDelay()` and the `GRACE_PERIOD` can be fetched from `GRACE_PERIOD()`.
 
 The validation and execution of the proposal are performed by the time lock executor. A queued proposal state is `QUEUED.` A successfully executed proposal state is `EXECUTED`. If a queued proposal has not been executed before expiration, then the proposal state is `EXPIRED`.
 
 #### Proposal Canceling ####
 
-If the proposal creator's proposal power decrease and no longer meet the `[PROPOSITION_THRESHOLD](https://www.notion.so/developers/v/2.0/protocol-governance/governance#proposition_threshold)`, any user can cancel the proposal. In addition as an initial safeguard to the protocol, the **guardian** account, controlled by a community multisig, is able to cancel a proposal before a proposal is executed. A cancelled proposal state is `CANCELED`.
+If the proposal creator's proposal power decrease and no longer meet the `PROPOSITION_THRESHOLD`, any user can cancel the proposal. In addition as an initial safeguard to the protocol, the **guardian** account, controlled by a community multisig, is able to cancel a proposal before a proposal is executed. A cancelled proposal state is `CANCELED`.
 
 ### Governance Strategy
 
